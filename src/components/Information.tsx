@@ -23,6 +23,12 @@ export default function Information() {
                         Index47 was founded in May of 2026, by programmers on 13100, but now many
                         more contribute. It was made through observations that the FTC community
                         does not know all niche references.
+                    </p><br></br>
+                    <h3 className="text-lg font-bold">How to use</h3>
+                    <p className="pt-4">
+                        Type in a search or acronym in the search bar to show the desired content
+                    that will include a whole page on the topic on the right hand side.
+                    
                     </p>
                 </div>
             </dialog>
