@@ -2,7 +2,7 @@
 title: Proportional Integral Derivative
 aliases: [pid]
 ---
-<blockquote>"PID is bagerait - Sid</blockquote> 
+<blockquote>"PID tuning is bagerait - Sid</blockquote> 
 
 __Proportional Integral Derivative__ is a system used by programmers, requiring tuning to __maintain/better__ velocity, angle, or position of motor driven subsystems. These values are applied in the form of __kP, kI, kD__. PID is a way to improve consistency throughout your subsystem and requires an encoder wire or absolute encoder. Visit <a href="https://www.ctrlaltftc.com/the-pid-controller" target="_blank">__ctrlaltftc.com__</a> for more information about this.
 
