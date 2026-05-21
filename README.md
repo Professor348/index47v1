@@ -5,8 +5,7 @@ more contributors outside of this team make changes regularly. It was made throu
 observations that the FTC community
 does not know all references, acronyms, or libraries.
 
-##
-Usage
+## Usage
 
 To use Index47, type in a search or acronym in the search bar to show the desired content
 that will include a whole page on the topic on the right hand side, you can then re-search 
