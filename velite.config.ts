@@ -6,10 +6,10 @@ const git = simpleGit();
 
 const lastModified = defineSchema(() =>
     s
-        .custom<Date | undefined>(i => i == undefined || i instanceof Date)
-        .transform<Date>(async (_, {meta}) => {
+        .custom<string | undefined>(i => i == undefined || typeof i === "string")
+        .transform<string>(async (_, {meta}) => {
             const log = await git.log({file: meta.path, maxCount: 1});
-            return new Date(log.latest?.date || Date.now());
+            return new Date(log.latest?.date || Date.now()).toISOString();
         })
 );
 

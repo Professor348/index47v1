@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-    themes: black --default;
+    themes: false;
 }
+@plugin "./lib/theme.ts";
 @plugin "@tailwindcss/typography";

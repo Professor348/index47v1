@@ -12,7 +12,10 @@
         "build": "bun run --sequential dev:velite dev:vite"
     },
     "dependencies": {
+        "@catppuccin/daisyui": "^2.1.1",
         "@icons-pack/react-simple-icons": "^13.13.0",
+        "fuse.js": "^7.3.0",
+        "jotai": "^2.20.0",
         "lucide-react": "^1.16.0",
         "react": "^19.2.6",
         "react-dom": "^19.2.6",

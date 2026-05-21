@@ -8,12 +8,12 @@ export default function SearchResult({
     slug
 }: {
     title: string;
-    date: Date;
+    date: string;
     slug: string;
 }) {
     const formattedDate = useMemo(
         () =>
-            date.toLocaleDateString("en-US", {
+            new Date(date).toLocaleDateString("en-US", {
                 month: "long",
                 day: "numeric"
             }),
@@ -21,14 +21,20 @@ export default function SearchResult({
     );
 
     return (
-        <li className="list-row">
-            <div className="list-col-grow">
-                <div>{title}</div>
-                <div className="text-xs uppercase font-semibold opacity-60">{formattedDate}</div>
-            </div>
-            <Link to={`/${slug}`} className="btn btn-square btn-ghost">
-                <ArrowRight className="size-6" />
-            </Link>
-        </li>
+        <Link
+            to={`/${slug}`}
+            className="hover:opacity-75 transition-all duration-250 hover:scale-98">
+            <li className="list-row">
+                <div className="list-col-grow">
+                    <div>{title}</div>
+                    <div className="text-xs uppercase font-semibold opacity-60">
+                        {formattedDate}
+                    </div>
+                </div>
+                <span className="btn btn-square btn-ghost">
+                    <ArrowRight className="size-6" />
+                </span>
+            </li>
+        </Link>
     );
 }
