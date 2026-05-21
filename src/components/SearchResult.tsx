@@ -21,9 +21,7 @@ export default function SearchResult({
     );
 
     return (
-        <Link
-            to={`/${slug}`}
-            className="hover:opacity-75 transition-all duration-250 hover:scale-98">
+        <Link to={`/${slug}`} className="hover:opacity-75 transition duration-250 hover:scale-98">
             <li className="list-row">
                 <div className="list-col-grow">
                     <div>{title}</div>

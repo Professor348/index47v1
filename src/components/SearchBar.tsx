@@ -1,4 +1,4 @@
-import {Search} from "lucide-react";
+import {Search, X} from "lucide-react";
 import {useMemo, useRef} from "react";
 import {useHotkeys} from "react-hotkeys-hook";
 import SearchResult from "./SearchResult";
@@ -6,6 +6,7 @@ import {terms} from "../../.velite";
 import {useAtom} from "jotai";
 import {searchQueryAtom} from "../lib/state";
 import Fuse from "fuse.js";
+import clsx from "clsx";
 
 export default function SearchBar() {
     const searchBar = useRef<HTMLInputElement>(null);
@@ -32,40 +33,54 @@ export default function SearchBar() {
 
     return (
         <div className="flex min-h-0 flex-1 flex-col p-4">
-            <label className="floating-label">
-                <span>Search</span>
-                <div className="input w-full grow">
-                    <Search className="opacity-50 size-5 mr-1" />
-                    <input
-                        value={searchQuery}
-                        onChange={e => setSearchQuery(e.target.value)}
-                        ref={searchBar}
-                        type="search"
-                        placeholder="Search"
-                    />
-                    <kbd className="kbd kbd-md select-none">/</kbd>
-                </div>
-            </label>
+            <div className={clsx(searchQuery === "" ? "flex" : "join")}>
+                <label className="floating-label grow">
+                    <span>Search</span>
+                    <div className={clsx("input", searchQuery === "" ? "w-full" : "join-item")}>
+                        <Search className="opacity-50 size-5 mr-1" />
+                        <input
+                            value={searchQuery}
+                            onChange={e => setSearchQuery(e.target.value)}
+                            ref={searchBar}
+                            type="text"
+                            placeholder="Search"
+                        />
+                        <kbd className="kbd kbd-md select-none">/</kbd>
+                    </div>
+                </label>
+                <button
+                    onClick={() => setSearchQuery("")}
+                    className={clsx(
+                        "btn join-item btn-square btn-neutral btn-soft shadow-none transition-[width,opacity] duration-100 ease-linear will-change-[width]",
+                        searchQuery === "" && "w-0 opacity-0"
+                    )}>
+                    <X className="size-6" />
+                </button>
+            </div>
 
-            <ul className="list mt-4 min-h-0 overflow-y-auto border border-base-content/10 bg-base-300 rounded-box">
-                {searchQuery
-                    ? searchResults.map(term => (
-                          <SearchResult
-                              key={term.item.slug}
-                              title={term.item.title}
-                              slug={term.item.slug}
-                              date={term.item.lastModified}
-                          />
-                      ))
-                    : terms.map(term => (
-                          <SearchResult
-                              key={term.slug}
-                              title={term.title}
-                              slug={term.slug}
-                              date={term.lastModified}
-                          />
-                      ))}
-            </ul>
+            {searchResults.length === 0 ? (
+                "nothing"
+            ) : (
+                <ul className="list mt-4 min-h-0 overflow-y-auto border border-base-content/10 bg-base-300 rounded-box">
+                    {searchQuery
+                        ? searchResults.map(term => (
+                              <SearchResult
+                                  key={term.item.slug}
+                                  title={term.item.title}
+                                  slug={term.item.slug}
+                                  date={term.item.lastModified}
+                              />
+                          ))
+                        : terms.map(term => (
+                              <SearchResult
+                                  key={term.slug}
+                                  title={term.title}
+                                  slug={term.slug}
+                                  date={term.lastModified}
+                              />
+                          ))}
+                </ul>
+            )}
         </div>
     );
 }

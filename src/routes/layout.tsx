@@ -15,10 +15,14 @@ export default function Layout() {
                 </div>
                 <div className="flex justify-center gap-2 items-center p-3 border-b-2 border-base-content/10">
                     <Information />
-                    <a href="https://github.com" className="btn btn-neutral btn-square">
+                    <a
+                        href="https://github.com"
+                        className="btn btn-outline btn-neutral shadow-none btn-square">
                         <SiGithub className="size-6" />
                     </a>
-                    <a href="https://discord.com" className="btn btn-neutral btn-square">
+                    <a
+                        href="https://discord.com"
+                        className="btn btn-outline btn-neutral shadow-none btn-square">
                         <SiDiscord className="size-6" />
                     </a>
                 </div>

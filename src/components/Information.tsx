@@ -7,7 +7,7 @@ export default function Information() {
     return (
         <>
             <button
-                className="btn btn-neutral btn-square"
+                className="btn btn-outline btn-neutral shadow-none btn-square"
                 onClick={() => modal.current?.showModal()}>
                 <Info className="size-6" />
             </button>
