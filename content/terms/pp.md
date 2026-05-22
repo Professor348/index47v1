@@ -1,5 +1,4 @@
- 
- ---
+---
 title: Pedro Pathing
 aliases: [pp]
 ---
