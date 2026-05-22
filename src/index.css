@@ -2,5 +2,39 @@
 @plugin "daisyui" {
     themes: false;
 }
+@plugin "daisyui/theme" {
+    name: "forest";
+    default: false;
+    prefersdark: false;
+    "color-scheme": "light";
+    --color-base-100: #4d4d4d;
+    --color-base-200: #262626;
+    --color-base-300: #4d4d4d;
+    --color-base-content: #9EFFBD;
+    --color-primary: #999999;
+    --color-primary-content: #8c8c8c;
+    --color-secondary: #8c8c8c;
+    --color-secondary-content: #9EFFBD;
+    --color-accent: #8c8c8c;
+    --color-accent-content: #9EFFBD;
+    --color-neutral: #8c8c8c;
+    --color-neutral-content: #9EFFBD;
+    --color-info: #9EFFBD;
+    --color-info-content: #04200c;
+    --color-success: #9EFFBD;
+    --color-success-content: #04200c;
+    --color-warning: #9EFFBD;
+    --color-warning-content: #04200c;
+    --color-error: #9EFFBD;
+    --color-error-content: #04200c;
+    --radius-selector: 1rem;
+    --radius-field: 2rem;
+    --radius-box: 1rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --depth: 0;
+    --noise: 0;
+}
 @plugin "./lib/theme.ts";
 @plugin "@tailwindcss/typography";
