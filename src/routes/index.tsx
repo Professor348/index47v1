@@ -1,5 +1,5 @@
 export default function Index() {
-    return "Hello, World!";
+    return ("Hello, World!");
 
 
 
