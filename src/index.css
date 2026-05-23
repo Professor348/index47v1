@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 @import "tailwindcss";
+@plugin "./lib/theme.ts";
+@plugin "@tailwindcss/typography";
 @plugin "daisyui" {
     themes: false;
 }
@@ -37,8 +39,23 @@
     --depth: 0;
     --noise: 0;
 }
-@plugin "./lib/theme.ts";
-@plugin "@tailwindcss/typography";
+
 .prose {
     font-family: "Itim", cursive;
 }
+.prose h2 {
+    color: #d9d9d9;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+}
+ h1 {
+    color: #d9d9d9;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+}
+.prose img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.prose strong {
+    color: #d9d9d9;
+}
+

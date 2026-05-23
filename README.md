@@ -6,7 +6,7 @@ Index47 was founded in May 2026 by programmers from FTC Team 13100,  known as th
 
 To use Index47, type in a search or acronym in the search bar to show the desired content
 that will include a whole page on the topic on the right hand side, you can then re-search 
-on the left search bar.
+on the left search bar. To return to this page, simply click the Index47 logo.
 
 ## How to contribute
 1. Join the [__discord__](https://discord.gg/dAJUWgdun2) to communicate your thoughts
