@@ -1,9 +1,6 @@
 ## About
 
-Index47 was founded in May of 2026, by programmers on 13100, however now many
-more contributors outside of this team make changes regularly. It was made through 
-observations that the FTC community
-does not know all references, acronyms, or libraries.
+Index47 was founded in May 2026 by programmers from FTC Team 13100,  known as the 47 Beavers, hence the name “Index47” was derived. Since then, many contributors outside the team have regularly helped expand the project. It was created after observing that much of the FTC community lacks a centralized resource for references, acronyms, and commonly used libraries.
 
 ## Usage
 
