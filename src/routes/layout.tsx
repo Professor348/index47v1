@@ -8,8 +8,7 @@ export default function Layout() {
             <div className="flex h-screen min-w-1/4 flex-col bg-base-200 border-r-2 border-base-content/10">
                 <div className="p-4 border-b-2 border-base-content/10 text-center">
                     <Link to="/" className="btn btn-ghost p-8 uppercase font-mono">
-                        <span className="text-4xl">Index&nbsp;</span>
-                        <span className="text-5xl">47</span>
+                   <img src="/index47.svg" alt="Index 47 Logo" className="h-40 w-auto" />
                     </Link>
                 </div>
                 <div className="flex justify-center gap-2 items-center p-3 border-b-2 border-base-content/10">
