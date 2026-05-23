@@ -24,7 +24,7 @@ on the left search bar.
   [__Sid Shah__](https://github.com/siddharth-shah121) Lead Developer\
   [__Davis Luxenberg__](https://github.com/BeepBot99) Beta Testing Lead\
   [__Ishika Saini__](https://github.com/ish-that-a-wish) UI/Design Lead\
-  [__Mohit Patil__](https://github.com/MomohitPatil) Collaboration Lead\
+  [__Mohit Patil__](https://github.com/MomohitPatil) Collaboration Lead
 
 
 ## Other Contributors
