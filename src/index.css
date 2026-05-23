@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 @import "tailwindcss";
 @plugin "daisyui" {
     themes: false;
@@ -38,3 +39,6 @@
 }
 @plugin "./lib/theme.ts";
 @plugin "@tailwindcss/typography";
+.prose {
+    font-family: "Itim", cursive;
+}

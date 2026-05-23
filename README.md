@@ -26,11 +26,14 @@ on the left search bar.
   [__Ishika Saini__](https://github.com/ish-that-a-wish) UI/Design Lead\
   [__Mohit Patil__](https://github.com/MomohitPatil) Collaboration Lead\
 
+
 ## Other Contributors
 
   [NotTacos](https://github.com/NotTacos2)\
   [Ducks](https://github.com/Duck-things)\
   [Zammaloid](https://github.com/X2L1)
+  [Mikey](https://github.com/MikeyIsANerd)
+
 
 
 

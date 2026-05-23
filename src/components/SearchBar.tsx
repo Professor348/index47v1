@@ -33,10 +33,10 @@ export default function SearchBar() {
 
     return (
         <div className="flex min-h-0 flex-1 flex-col p-4">
-            <div className={clsx(searchQuery === "" ? "flex" : "join")}>
+            <div className={clsx("flex", searchQuery !== "" && "join")}>
                 <label className="floating-label grow">
                     <span>Search</span>
-                    <div className={clsx("input", searchQuery === "" ? "w-full" : "join-item")}>
+                    <div className={clsx("input w-full", searchQuery !== "" && "join-item")}>
                         <Search className="opacity-50 size-5 mr-1" />
                         <input
                             value={searchQuery}
