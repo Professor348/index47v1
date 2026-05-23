@@ -5,7 +5,7 @@ import SearchBar from "../components/SearchBar";
 export default function Layout() {
     return (
         <div className="flex">
-            <div className="flex h-screen min-w-1/4 flex-col bg-base-200 border-r-2 border-base-content/10">
+            <div className="flex h-screen min-w-1/3 flex-col bg-base-200 border-r-2 border-base-content/10">
                 <div className="p-4 border-b-2 border-base-content/10 text-center">
                     <Link to="/" className="btn btn-ghost p-8 uppercase font-mono">
                    <img src="/index47.svg" alt="Index 47 Logo" className="h-40 w-auto" />

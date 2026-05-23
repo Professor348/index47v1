@@ -11,18 +11,20 @@ on the left search bar.
 ## How to contribute
 1. Join the [__discord__](https://discord.gg/dAJUWgdun2) to communicate your thoughts
 2. Fork the [__repository__](https://github.com/index47ftc/index47v1)
-3. Create a new file in __content/terms__ named `[search].md` where an acronym is favored if there is one
-4. Write out your content,  __leave out blockquotes__, and underline __all__ link covers, refer to  `pid.md` for direct examples of this ,
+3. Copy the content in `[abbreviation].md` file from the template folder
+3. Paste it into a new file in __content/terms__ named `[abbreviation].md` where an acronym is favored if there is one.
+4. Write out your content and replace all []s with the appropriate content of your search
 5. If your search doesn't have acronyms, put in a simplified version of the word as an aliase (e.g. __Next__ for __NextFTC__)
-6. Add your name to the __Other Contributors__ section of `README.md` as shown
-7. Submit a pull request to [__repository__](https://github.com/index47ftc/index47v1)
+6. Searches are required to have at least 1 image, scale the image using `width` to adjust sizing
+7. Add your name to the __Other Contributors__ section of `README.md` as shown with your github details
+8. Submit a pull request to [__repository__](https://github.com/index47ftc/index47v1)
 
 ## Developers
   
-  [__Sid Shah__](https://github.com/siddharth-shah121)\
-  [__Davis Luxenberg__](https://github.com/BeepBot99)\
-  [__Ishika Saini__](https://github.com/ish-that-a-wish)\
-  [__Mohit Patil__](https://github.com/MomohitPatil)
+  [__Sid Shah__](https://github.com/siddharth-shah121) Lead Developer\
+  [__Davis Luxenberg__](https://github.com/BeepBot99) Beta Testing Lead\
+  [__Ishika Saini__](https://github.com/ish-that-a-wish) UI/Design Lead\
+  [__Mohit Patil__](https://github.com/MomohitPatil) Collaboration Lead\
 
 ## Other Contributors
 
