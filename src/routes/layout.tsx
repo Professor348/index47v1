@@ -13,7 +13,7 @@ export default function Layout() {
     });
     return (
         <div className="flex min-h-screen">
-            <div className="flex min-h-screen min-w-7/24 flex-col bg-base-200 border-r-2 border-base-content/10">
+            <div className="flex sticky top-0 h-screen min-w-7/24 flex-col bg-base-200 border-r-2 border-base-content/10">
                 <div className="p-4 border-b-2 border-base-content/10 text-center">
                     <Link to="/" className="btn btn-ghost p-8 uppercase font-mono">
                         <img src="/index47.svg" alt="Index 47 Logo" className="h-40 w-auto" />

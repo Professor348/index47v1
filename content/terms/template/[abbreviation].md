@@ -8,5 +8,5 @@ __Full Form of Word__ is a way to contribute in Index47 efficienctly contribute 
 
 ---
 REQUIRED 1 IMAGE AND NO MORE THAN 1 IMAGE
-<img src="[abbreviation].png" alt="[acronym or abbreviation of word]" style="border: 3px solid #9effbd; width: [SCALE AMOUNT]%; height: auto;">
+<img src="[abbreviation].png" alt="[image description]" style="border: 3px solid #9effbd; width: [SCALE AMOUNT]%; height: auto;">
 
