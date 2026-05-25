@@ -7,3 +7,4 @@ __SolversLib__ is an updated and maintained fork of the older FTCLib, created by
 
 ---
 <img src="solverslib.png" alt="solvers lib" style="border: 3px solid #9effbd; width: 50%; height: auto;">
+
