@@ -1,4 +1,3 @@
-tsx
 import {Link, Outlet, useLocation} from "react-router";
 import {SiDiscord, SiGithub} from "@icons-pack/react-simple-icons";
 import SearchBar from "../components/SearchBar";
@@ -27,7 +26,10 @@ export default function Layout() {
 
     return (
         <div className="flex min-h-screen">
+
+            {/* Sidebar */}
             <div className="flex sticky top-0 h-screen min-w-7/24 flex-col bg-base-200 border-r-2 border-base-content/10">
+
                 <div className="p-4 border-b-2 border-base-content/10 text-center">
                     <Link to="/" className="btn btn-ghost p-8 uppercase font-mono">
                         <img
@@ -71,9 +73,12 @@ export default function Layout() {
                 <SearchBar />
             </div>
 
+            {/* Main Content */}
             <div className="grow flex flex-col">
+
                 {isHomePage ? (
                     <>
+                        {/* Tabs */}
                         <div className="flex justify-end border-b-2 border-base-content/10 font-mono">
                             <button
                                 onClick={() => setTab("main")}
@@ -96,13 +101,18 @@ export default function Layout() {
                             </button>
                         </div>
 
+                        {/* Content */}
                         <div className="grow flex flex-col items-center">
+
+                            {/* MAIN */}
                             {tab === "main" && (
                                 <Outlet />
                             )}
 
+                            {/* CONTRIBUTORS */}
                             {tab === "contributors" && (
                                 <>
+                                    {/* ONLY logo here */}
                                     <div className="p-6">
                                         <img
                                             src="/i47.svg"
@@ -113,6 +123,8 @@ export default function Layout() {
 
                                     <div className="p-10 font-mono">
                                         <div className="grid grid-cols-2 gap-16">
+
+                                            {/* Developers */}
                                             <div>
                                                 <h1 className="text-3xl font-bold mb-2">
                                                     Developers
@@ -130,6 +142,7 @@ export default function Layout() {
                                                 </div>
                                             </div>
 
+                                            {/* Others */}
                                             <div>
                                                 <h1 className="text-3xl font-bold mb-2">
                                                     Other contributors
@@ -151,6 +164,7 @@ export default function Layout() {
                                                     ))}
                                                 </ul>
                                             </div>
+
                                         </div>
                                     </div>
                                 </>
@@ -163,6 +177,7 @@ export default function Layout() {
                     </div>
                 )}
 
+                {/* Footer */}
                 <footer className="p-4 border-t-2 border-base-content/10 text-center text-sm font-mono opacity-50">
                     © 2026 Index47. All rights reserved.
                 </footer>
