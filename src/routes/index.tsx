@@ -3,18 +3,15 @@ import ReactMarkdown from "react-markdown";
 const content = `
 ## About
 
-**Index47** was founded in May 2026 by programmers from **FTC Team 13100**, known as the 47 Beavers, hence the name "Index47" was derived. Since then, many contributors outside the team have regularly helped **expand** the project. It was created after observing that much of the FTC community lacks a **centralized** resource for references, acronyms, and commonly used libraries.
+**Index47** was founded in May 2026 by programmers from **FTC Team 13100**, known as the **47 Beavers**, hence the name **"Index47"** was derived. Since then, many contributors outside the team have regularly helped **expand** the project. It was created after observing that much of the FTC community lacks a **centralized** resource for references, acronyms, and commonly used libraries.
 ## User Guide
 
-To **use** Index47, **type** in a search or acronym in the search bar to show the desired content
-that will include a whole page on the topic on the right hand side, you can then **re-search**
-on the left search bar. To return to this page, simply **click** the Index47 logo. To begin **contributing** review the **README.md** of the  [**repository**](https://github.com/index47ftc/index47v1) for step by step instructions
-## Developers
-
-  [**Sid Shah**](https://github.com/siddharth-shah121) Lead Developer\\
-  [**Davis Luxenberg**](https://github.com/BeepBot99) Beta Testing Lead\\
-  [**Ishika Saini**](https://github.com/ish-that-a-wish) UI/Design Lead\\
-  [**Mohit Patil**](https://github.com/MomohitPatil) Collaboration Lead
+1. To **use** Index47, **type** in a search or acronym in the search bar, then click on your desired content
+, you can then **re-search** whenever. To return to this page, simply **click** the **Index47** logo.
+2. To begin **contributing** review the **README.md** of the  [**repository**](https://github.com/index47ftc/index47v1) for step by step instructions
+3. To give **feedback** about Index47 complete this [**survey**](https://docs.google.com/forms/d/e/1FAIpQLSciLKZQnHIfkVuzVi12Tn8I9sOc8acrul_N9b96MCNsfIISHw/viewform) which will be taken into account by **developers** in later versions
+## Developers and helpers
+ All our developers and helpers can be found in the **Contributors** tab at the top. To join our **contributing** team, join the [**discord**](https://discord.gg/dAJUWgdun2)
 
 
 `;

@@ -4,12 +4,23 @@ import {terms} from "../../.velite";
 export default function Term() {
     const {slug} = useParams();
     const term = terms.find(term => term.slug == slug);
+
     return term ? (
-        <div className="p-8 max-w-3x1 mx-auto">
-            <h1 className="text-4xl font-bold mb-8 text-center">{term.title}</h1>
-            <article className="prose" dangerouslySetInnerHTML={{__html: term.content}}></article>
+        <div className="flex justify-center w-full p-8">
+            <div className="w-full max-w-4xl">
+                <h1 className="text-4xl font-bold mb-8 text-center">
+                    {term.title}
+                </h1>
+
+                <article
+                    className="prose prose-lg mx-auto"
+                    dangerouslySetInnerHTML={{__html: term.content}}
+                ></article>
+            </div>
         </div>
     ) : (
-        <span>404 bum</span>
+        <div className="flex items-center justify-center h-full">
+            <span>404 bum</span>
+        </div>
     );
 }
