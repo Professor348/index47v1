@@ -135,7 +135,7 @@ export default function Layout() {
                                                 </p>
 
                                                 <div className="space-y-3 text-sm">
-                                                    <p><span className="text-primary">▸</span> Sid Shah - Lead Developer</p>
+                                                    <p><span className="text-primary">▸</span> Sid Shah - Founder & Lead Developer</p>
                                                     <p><span className="text-primary">▸</span> Davis Luxenberg - Beta Testing Lead</p>
                                                     <p><span className="text-primary">▸</span> Ishika Saini - UI/Design Lead</p>
                                                     <p><span className="text-primary">▸</span> Mohit Patil - Workflow Lead</p>
