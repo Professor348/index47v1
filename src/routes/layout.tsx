@@ -9,7 +9,7 @@ const CONTRIBUTORS = [
     "Zammaloid",
     "Ducks",
     "NotTacos",
-    "Professor348"
+    "DanTheCoder"
 ];
 
 export default function Layout() {
