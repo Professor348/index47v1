@@ -33,7 +33,7 @@ on the left search bar. To return to this page, simply click the Index47 logo.
   [Ducks](https://github.com/Duck-things)\
   [Zammaloid](https://github.com/X2L1)
   [Mikey](https://github.com/MikeyIsANerd)
-  [Professor348](https://github.com/Professor348)
+  [DanTheCoder](https://github.com/Professor348)
 
 
 
